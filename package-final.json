@@ -1,0 +1,20 @@
+{
+  "name": "bacbo-100-automatico",
+  "version": "2.0.0",
+  "description": "BAC BO 100% AUTOMATICO - Coletor Puppeteer 24/7 sem mock",
+  "main": "server-final-24h-BACBO.js",
+  "scripts": {
+    "start": "node server-final-24h-BACBO.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "puppeteer": "^21.6.1",
+    "better-sqlite3": "^9.1.1",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
